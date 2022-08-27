@@ -1,0 +1,1171 @@
+#navbar {
+    width: 100%;
+    height: 100px;
+    margin-left: -7px;
+    display: flex;
+    position: fixed;
+    background-color: #FFD85D;
+    padding-top: 15px;
+}
+#navbar > a > img {
+    width: 160px;
+    height: 50px;
+    margin: 25px 0 0px 40px;
+    cursor: pointer;
+}
+
+#msnavdrop {
+    position: fixed;
+    visibility: hidden;
+    z-index: 5;
+    margin-top: 80px;
+    width: 110%;
+    margin-left: -10px;
+    height: 900px;
+    background-color: #FFD85D;
+}
+#msnavdrop > div {
+    font-size: 20px;
+    margin: 10px 0 0 40px;
+    height: 400px;
+}
+#msnavdrop > div > div {
+    margin-top: 20px;
+    cursor: pointer;
+}
+#msnavdrop > div > hr {
+    margin-bottom: 70px;
+    margin-left: -40px;
+}
+#msnavdrop > div > div:hover {
+    color: #267E6B;
+}
+#msnavdrop > div > div > div {
+    background-color:#FFF28B;
+    margin-top: 10px;
+    padding: 5px 0 5px 20px;
+    border-radius: 5px;
+    width: 85%;
+}
+#msnavdrop > div > div > div {
+    color: black !important;
+    cursor: default;
+    font-size: 17px;
+}
+#msnavdrop > div > div > div > div,a {
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-left: 0;
+}
+#msnavdrop > div > div > div > div:hover {
+    color: #145a4b;
+}
+
+#msnavdropsignup {
+    width: 120px;
+    height: 36px;
+    color: white;
+    background-color: #267E6B;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 40px;
+    margin-top: 80px !important;
+}
+#msnavdropsignup:hover{
+    background-color: #105546;
+    color: white !important;
+}
+.mssub {
+    display: none;
+}
+
+
+
+/* //////////////////// */
+
+
+
+#uncommon {
+    height: 800px;
+    margin-top: -8px;
+}
+#uncommontext {
+    grid-area: left;
+    margin: auto auto;
+}
+#uncommontext > div {
+    width: 80%;
+    margin: auto auto;
+}
+#uncommontext > div > h1 {
+    font-size: 60px;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 100;
+}
+#boldtxt {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #FFD85D;
+    color: #267E6B;
+}
+#uncommontext > div > p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#joinNow {
+    width: 130px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    background-color: #267E6B;
+    margin-top: 80px;
+    cursor: pointer;
+}
+#joinNow:hover {
+    background-color: #0f4d3f;
+    transition: all .2s ease-in-out;
+}
+#uncommonimg {
+    grid-area: right;
+    background-image: url("https://hellobrightline.s3.amazonaws.com/homepage_hero_daughter_hugging_dad_acb43749bb.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#supporting {
+    text-align: center;
+}
+#supporting > p:nth-child(1) {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Noto Serif SC', serif;
+}
+#supporting > h1 {
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 600;
+}
+#supporting > p:nth-child(3) {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#approachimg {
+    background-image: url("https://hellobrightline.s3.amazonaws.com/kid_with_smile_ae9b4240e3.png");
+    background-size: cover;
+    background-position: center;
+}
+#approachtxt > div {
+    margin-bottom: 60px;
+    font-weight: 100;
+}
+#approachtxt > div > h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #267E6B;
+    font-size: 40px;
+    font-weight: 700;
+}
+#approachtxt > div > p {
+    margin-top: -30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+#learn {
+    border: 1px solid #267E6B;
+    border-radius: 80px;
+    color: #267E6B;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+#learn:hover {
+    color: white;
+    background-color: #267E6B;
+    transition: all .2s ease-in-out;
+}
+ol {
+    margin-left: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+#approachtxt > ol > li > a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#asseen {
+    text-align: center;
+    margin-top: 100px;
+}
+#asseen h1 {
+    font-weight: 900;
+    font-family: 'Noto Serif SC', serif;
+}
+
+
+#wehavegot {
+    text-align: center;
+    margin-top: 100px;
+}
+#wehavegot > h1 {
+    font-size: 45px;
+    font-family: 'Noto Serif SC', serif;
+}
+#wehavegottxt > div > img {
+    width: 60px;
+}
+#wehavegottxt > div > p {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+#wehavegotimg {
+    background-image: url("https://hellobrightline.s3.amazonaws.com/homepage_boy_glasses_mom_6d5c417c5e.png");
+    background-size: cover;
+    background-position: center;
+}
+#brightline {
+    margin: 30px auto 0px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #267E6B;
+    border-color: #267E6B;
+    background-color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#brightline:hover {
+    color: white;
+    background-color: #267E6B;
+    transition: all .2s ease-in-out;
+}
+
+
+#flexible {
+    text-align: center;
+}
+#flexible h1 {
+    font-family: 'Noto Serif SC', serif;
+}
+#flexible p {
+    font-family: 'Roboto', sans-serif;
+}
+#flexibleimg {
+    background-image: url("https://hellobrightline.s3.amazonaws.com/product_animationx2_a6f2527d43.gif");
+    background-size: cover;
+    background-position: center;
+}
+#flexibletxt > div {
+    text-align: left;
+}
+#flexibletxt > div > h1 {
+    color: #267E6B;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Noto Serif SC', serif;
+}
+#flexibletxt p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#asseen2 {
+    text-align: center;
+    margin-top: 150px;
+}
+#asseen2 > p {
+    font-size: 45px;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+#card > div {
+    padding: 40px 5px 0px;
+    height: 300px;
+    text-align: center;
+}
+#card > div:nth-child(odd) {
+    background-color: #FFD85D;
+}
+#card > div:nth-child(even) {
+    background-color: #FFF28B;
+}
+#card > div > img {
+    margin: 20px;
+}
+#card > div > p:nth-child(1) {
+    font-size: 13px;
+}
+#card > div > a {
+    color: #267E6B;
+}
+#card > div > a:hover {
+    color: #FF7823;
+}
+.cardp {
+    font-size: 25px;
+    margin-top: -1px;
+}
+#card {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.card1 {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+#started h1, h2 {
+    font-family: 'Noto Serif SC', serif;
+}
+#started p {
+    font-family: 'Roboto', sans-serif;
+}
+#started > div > div {
+    background-color: #FFF3CE;
+}
+#stimg1 {
+    background-image: url("https://hellobrightline.s3.amazonaws.com/For_Families_2x_d42220125f.png");
+    background-size: cover;
+    background-position: center;
+}
+#stimg2 {
+    background-image: url("https://hellobrightline.s3.amazonaws.com/For_Employers_2x_bd587cd26b.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* .....Small Screen..... */
+
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        display: flex;
+    }
+    #option {
+        display: none;
+    }
+    #btns {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #employdrop {
+        display: none;
+    }
+    #familydrop {
+        display: none;
+    }
+    #careerdrop {
+        display: none;
+    }
+
+    #burger {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: 25px;
+        margin-left: 85%;
+        cursor: pointer;
+    }
+    #burger > div {
+        width: 90%;
+        height: 1.5px;
+        background-color: rgb(41, 41, 41);
+        margin: auto;
+    }
+    #cross {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: -26px;
+        margin-left: 86%;
+        cursor: pointer;
+    }
+    #cross > p {
+        font-size: 45px;
+    }
+
+
+    #uncommon {
+        display: grid;
+        height: 910px;
+        grid-template-areas: 'left'
+                              'right';
+    }
+    #uncommontext {
+        background-color: #FFD85D;
+        padding-bottom: 33px;
+    }
+    #uncommonimg {
+        width: 100%;
+        height: 400px;
+    }
+    #joinNow {
+        width: 100%;
+    }
+
+
+    #supporting {
+        margin: 100px 0px 40px;
+    }
+
+
+    #approach {
+        grid-template-areas: 'leftapp'
+                              'rightapp';
+    }
+    #approachimg {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    #asseen > div {
+        width: 40%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #asseen > div > div {
+        margin-top: 30px;
+    }
+    #asseen > div > div > img {
+        width: 100%;
+    }
+
+
+    #wehavegot {
+        width: 100%;
+    }
+    #wehavegot > div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #wehavegottxt > div {
+        margin: 60px 0px;
+    }
+    #brightline {
+        width: 100%;
+    }
+    #wehavegotimg {
+        width: 100%;
+        height: 500px;
+        margin: 20px 0px;
+    }
+
+
+    #flexible {
+        margin-top: 100px;
+    }
+    #flexible > p {
+        width: 90%;
+        margin: 0px auto 40px;
+        font-size: 17px;
+    }
+    #flexible > div {
+        display: flex;
+        flex-direction: column;
+    }
+    #flexible > h1 {
+        font-weight: 500;
+    }
+    #flexibleimg {
+        width: 100%;
+        height: 500px;
+    }
+    #flexibletxt > div {
+        margin: 35px 0px 0px 20px;
+    }
+    #flexibletxt > div > p {
+        margin-top: -10px;
+    }
+
+
+    #card {
+        width: 100%;
+    }
+
+
+    #started {
+        width: 100%;
+        margin-top: 90px;
+        text-align: center;
+    }
+    #started > h1 {
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+    #started > div > div {
+        width: 100%;
+        height: 550px;
+        margin-top: 10px;
+    }
+    #stimg1 {
+        width: 100%;
+        height: 65%;
+    }
+    #stimg2 {
+        width: 100%;
+        height: 65%;
+    }
+    #started > div > div > div {
+        text-align: center;
+    }
+    #started > div > div > div:nth-child(2) {
+        width: 80%;
+        margin: 40px auto 0;
+    }
+    #started > div > div > div > h2 {
+        font-weight: 100;
+    }
+}
+
+
+/* .....Mid Screen..... */
+
+
+@media only screen and (min-width: 600px) {
+    #navbar {
+        margin-top: -17px;
+    }
+    #option {
+        display: none;
+    }
+    #btns {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #employdrop {
+        display: none;
+    }
+    #familydrop {
+        display: none;
+    }
+    #careerdrop {
+        display: none;
+    }
+
+    #burger {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: 25px;
+        margin-left: 85%;
+        cursor: pointer;
+    }
+    #burger > div {
+        width: 90%;
+        height: 1.5px;
+        background-color: rgb(41, 41, 41);
+        margin: auto;
+    }
+    #cross {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: -26px;
+        margin-left: 86%;
+        cursor: pointer;
+    }
+    #cross > p {
+        font-size: 45px;
+    }
+
+
+
+
+    #uncommon {
+        display: grid;
+        grid-template-areas: 'left'
+                              'right';
+    }
+    #uncommontext {
+        padding-top: 70px;
+        background-color: #FFD85D;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    #uncommontext > div {
+        margin-left: 40px;
+    }
+    #uncommonimg {
+        width: 100%;
+        height: 400px;
+    }
+    #joinNow {
+        width: 130px;
+    }
+
+
+    #supporting {
+        margin: 180px auto 40px;
+        width: 80%;
+    }
+
+
+    #approach {
+        width: 80%;
+        margin: auto;
+        grid-template-areas: 'leftapp'
+                              'rightapp';
+    }
+    #approachimg {
+        width: 100%;
+        height: 650px;
+    }
+    #learn {
+        width: 250px;
+    }
+
+
+    #asseen > div {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #asseen > div > div {
+        width: 50%;
+        margin: auto;
+    }
+    #asseen > div > div > img {
+        width: 100%;
+    }
+
+
+    #wehavegot {
+        width: 80%;
+        margin: 100px auto 10px;
+    }
+    #wehavegot > div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #wehavegottxt > div {
+        margin: 60px 0px;
+    }
+    #wehavegotimg {
+        height: 500px;
+        margin: 30px 0px;
+    }
+
+
+    #flexible {
+        width: 80%;
+        margin: 100px auto 0px;
+    }
+    #flexible > h1 {
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 600;
+    }
+    #flexible > p {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    #flexible > div {
+        display: flex;
+        flex-direction: column;
+    }
+    #flexibletxt > div {
+        margin-top: 40px;
+    }
+    #flexibletxt > div > p {
+        margin-top: -10px;
+    }
+    #flexibleimg {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    #card {
+        width: 100%;
+    }
+
+
+    #started {
+        width: 80%;
+        margin: 150px auto 0;
+        text-align: center;
+    }
+    #started > h1 {
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    #started > div > div {
+        height: 700px;
+        margin-top: 10px;
+    }
+    #stimg1 {
+        width: 100%;
+        height: 75%;
+    }
+    #stimg2 {
+        width: 100%;
+        height: 75%;
+    }
+    #started > div > div > div:nth-child(2) {
+        text-align: center;
+        margin-top: 40px;
+        padding: 0px 30px;
+    }
+    #started > div > div > div > h2 {
+        font-weight: 100;
+    }
+}
+
+
+/* .....Large Screen..... */
+
+
+@media only screen and (min-width: 1000px) {
+    #option {
+        display: flex;
+        margin-left: 10%;
+        width: 900px;
+    }
+    #option > div {
+        margin: auto 5%;
+        width: 20%;
+        cursor: pointer;
+    }
+    #option > div:hover {
+        color: #267E6B;
+    }
+    #btns {
+        display: flex;
+        margin: auto ;
+        margin-right: 40px;
+    }
+    #btns > div {
+        width: 120px;
+        height: 35px;
+        border-radius: 50px;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #btns > a {
+        width: 120px;
+        height: 35px;
+        border-radius: 50px;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #btns > div:nth-child(1) {
+        border: 1px solid black;
+        letter-spacing: 0.6px;
+    }
+    #btns > div:nth-child(1):hover {
+        color: white;
+        background-color: #267E6B;
+        border: 1px solid #267E6B;
+        transition: all .1s ease-in-out;
+    }
+    #btns > a {
+        background-color: #267E6B;
+        color: white;
+        letter-spacing: 1.3px;
+        margin-top: 0;
+    }
+    #btns > a:hover {
+        background-color: #0d4b3d;
+        transition: all .1s ease-in-out;
+    }
+
+    #burger {
+        display: none;
+    }
+    #cross {
+        display: none;
+    }
+
+    #msnavdrop {
+        display: none;
+    }
+    
+
+    .droptxt {
+        margin: 0px 0 0 40px;
+        width: 270px;
+    }
+    .droptxt > p:nth-child(1) {
+        font-size: 35px;
+    }
+    .droptxt > p:nth-child(2) {
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .droplist {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .droplist > div:nth-child(1) {
+        margin-top: 0;
+    }
+    .droplist > div {
+        font-size: 20px;
+        margin-top: 15%;
+    }
+    .droplist > a {
+        font-size: 20px;
+        margin-top: 15%;
+        margin-top: 14px;
+        margin-bottom: -3px;
+    }
+    .droplist > div:hover {
+        color: #0d4b3d;
+        cursor: pointer;
+    }
+    .droplist > div > a {
+        margin-left: 0px;
+    }
+    #workdrop {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 200px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #employdrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #familydrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #careerdrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+
+
+
+
+    #uncommon {
+        display: flex;
+    }
+    #uncommonimg {
+        height: 800px;
+    }
+    #uncommontext {
+        background-color: #ffffff;
+        padding-bottom: 50px;
+        width: 100%;
+        margin: auto;
+    }
+    #approach {
+        display: flex;
+        height: 800px;
+    }
+    #approachimg {
+        height: 750px;
+    }
+    #approachtxt {
+        margin-left: 40px;
+        margin: 40px 0px 0px 40px;
+    }
+    #asseen > div {
+        width: 80%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #asseen > div > div {
+        margin: auto 30px ;
+    }
+
+
+    #wehavegot {
+        width: 100%;
+        margin-top: 150px;
+    }
+    #wehavegot > p {
+        font-size: 20px;
+        width: 80%;
+        margin: 5px auto 60px;
+    }
+    #wehavegot > div {
+        display: flex;
+        flex-direction: row;
+    }
+    #wehavegottxt {
+        margin: auto;
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #wehavegottxt > div {
+        width: 40%;
+        margin: 10px 0px;
+        padding: 2% 5%;
+    }
+    #wehavegotimg {
+        width: 60%;
+        height: 600px;
+    }
+    #brightline {
+        height: 60px;
+    }
+
+
+    #flexible > div {
+        flex-direction: row;
+    }
+    #flexible > p {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    #flexibleimg {
+        height: 700px;
+        width: 100%;
+    }
+    #flexibletxt {
+        margin: auto;
+        margin-left: 10%;
+        width: 70%;
+    }
+    #flexibletxt > div > h1 {
+        font-size: 50px;
+    }
+    #flexibletxt > div > p {
+        font-size: 20px;
+        margin-top: -10px;
+    }
+
+    #card {
+        width:90%;
+    }
+
+
+    #started {
+        width: 70%;
+    }
+    #started > h1 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+    #started > div > div {
+        height: 270px;
+        display: flex;
+        margin-top: 25px;
+    }
+    #stimg1 {
+        height: 100%;
+        width: 60%;
+    }
+    #stimg2 {
+        height: 100%;
+        width: 56%;
+    }
+    #started > div > div > div:nth-child(2) {
+        text-align: left;
+        padding: 30px 50px 0;
+    }
+}
+
+
+/* ..........CSS For Index - END.......... */
+
+    
+/* ..........CSS For Footer - START.......... */
+
+
+.footer {
+    display: flex;
+    background-color: #2C333F;
+    color: white;
+    padding: 0.5% 2%;
+    height: 650px;
+}
+.left-div > h2 {
+    font-family: 'Noto Serif SC', serif;
+}
+.left-div > p {
+    font-family: 'Roboto', sans-serif;
+}
+.right-div > p {
+    font-family: 'Roboto', sans-serif;
+}
+.footer > div {
+    margin: 3%;
+}
+.left-div {
+    width: 45%;
+}
+.leader-name {
+    font-size: 30px;
+}
+.fast {
+    font-size: 18px;
+    margin-top: -15px;
+}
+.email {
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.post {
+    margin-top: 25px;
+}
+.post > a {
+    color: white;
+}
+.right-div {
+    width: 55%;
+    padding-top: 15px;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.td {
+    width: 30%;
+    margin-top: -15px;
+}
+.smooth {
+    margin-left: 0px;
+    color: white;
+}
+.stamp-last {
+    margin: 20px 0px;
+}
+.line {
+    width: 90%;
+    margin-top: 0px;
+}
+.hr-div {
+    height: 110px;
+    background-color: #2C333F;
+    margin-top: 1px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.hr-div a {
+    color: white;
+}
+.hr-div > div {
+    display: flex;
+}
+.hr-div > div > a {
+    margin-left: 20px;
+}
+.hr-div > div:nth-child(2) {
+    margin-left: 33%;
+}
+.social-icon {
+    margin: 25px 0 0 0;
+}
+
+
+@media only screen and (max-width: 1000px)  {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 1420px;
+    }
+    .table {
+        display: flex;
+        flex-direction: column;
+    }
+    .stamp-last {
+        margin: 30px 0;
+    }
+    .left-div ,.right-div {
+        width: 93%;
+    }
+    .line {
+        width: 99%;
+    }
+
+
+    .hr-div {
+        flex-direction: column;
+        height: 170px;
+        padding-left: 20px;
+    }
+    .hr-div > div {
+        flex-direction: column;
+    }
+    .hr-div > div:nth-child(2) {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        height: 1500px;
+    }
+}
+

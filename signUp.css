@@ -1,0 +1,269 @@
+
+lable {
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url("https://app.hellobrightline.com/packs/media/images/ui/intake-shape-ellipse-3bae5ac92c6c01d6ea1cad3afc335f38.svg");
+    background-repeat: no-repeat;
+    background-color: #DEEBE9;
+}
+#img1 {
+    width: 170px;
+    margin: 20px 20px;
+}
+
+#form {
+    width: 480px;
+    height: 1050px;
+    margin: 65px auto 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 50px;
+}
+#form > p:nth-child(1) {
+    font-size: 28px;
+    font-family: 'Noto Serif SC', serif;
+}
+#form > p:nth-child(2) {
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#form > p:nth-child(3) {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family: 'Noto Serif SC', serif;
+}
+
+#inputfield {
+    width: 100%;
+}
+#inputfield > div > div > input {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    padding-left: 15px;
+}
+#name {
+    display: flex;
+    width: 100%;
+}
+#name > div {
+    width: 47.5%;
+    text-align: left;
+}
+#name > div:nth-child(1) {
+    margin-right: 2.5%;
+}
+#name > div:nth-child(2) {
+    margin-left: 2.5%;
+}
+#name > div > input {
+    width: 97%;
+}
+
+#mailstate {
+    display: flex;
+    width: 100%;
+}
+#mailstate > div {
+    text-align: left;
+}
+#mailstate > div:nth-child(1) {
+    width: 70%;
+    margin-right: 2.5%;
+}
+#mailstate > div:nth-child(2) {
+    margin-left: 2.5%;
+}
+#mailstate > div > input {
+    width: 96%;
+}
+
+#pass > div {
+    text-align: left;
+}
+#pass > div > div {
+    display: flex;
+    position: relative;
+}
+#pass > div > div > div:nth-child(2) {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+#pass > div > input {
+    width: 100%;
+}
+#check {
+    margin-bottom: 10px;
+}
+
+#condition {
+    text-align: left;
+    margin: -20px;
+    color: rgb(201, 201, 201);
+}
+#condition > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#condition > ul > li {
+    width: 50%;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+#yesno {
+    text-align: left;
+    margin-top: 35px;
+}
+#yesno > div {
+    display: flex;
+    flex-direction: column;
+}
+#yesno > div > select {
+    height: 50px;
+    margin-top: 15px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+#aggree {
+    width: 80%;
+    margin: 40px auto;
+    line-height: 25px;
+}
+.acolor {
+    color: #267E6B;
+}
+#signupbtn {
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: #267E6B;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#already {
+    color: #267E6B;
+    margin-top: 70px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    background-color: #2C333F;
+    color: white;
+    padding: 40px;
+    position: relative;
+    height: 200px;
+    margin-top: 100px;
+}
+#footer p {
+    font-family: 'Roboto', sans-serif;
+}
+#footer2 {
+    display: flex;
+    margin-top: 1px;
+    background-color: #2C333F;
+    color: white;
+}
+#footer2 > div:nth-child(1) {
+    display: flex;
+}
+#footer2 > div:nth-child(1) > a {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #form {
+        margin-top: 30px;
+        width: 80%;
+        padding: 50px 40px;
+        height: 1350px;
+    }
+    #name {
+        flex-direction: column;
+    }
+    #name > div {
+        width: 100%;
+    }
+    #name > div:nth-child(2), #mailstate > div:nth-child(2) {
+        margin-left: 0;
+    }
+    #mailstate {
+        flex-direction: column;
+    }
+    #condition > ul {
+        flex-direction: column;
+    }
+    #condition > ul > li {
+        width: 100%;
+    }
+    #footer {
+        flex-direction: column;
+        height: 250px;
+        padding: 20px;
+    }
+    #footer2 {
+        flex-direction: column;
+        padding: 30px 0 100px 20px;
+    }
+    #footer2 > div:nth-child(1) {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    #footer2 > div:nth-child(1) > a {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    #footer > div:nth-child(1) {
+        width: 30%;
+    }
+    #footer > div:nth-child(2) {
+        position: absolute;
+        width: 50%;
+        right: 40px;
+    }
+    #footer2 {
+        padding: 30px 0 100px 20px;
+        position: relative;
+    }
+    #footer2 > div:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    #footer2 > div:nth-child(2) {
+        position: absolute;
+        right: 20px;
+    }
+    #footer2 > div:nth-child(1) > a {
+        margin-right: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #footer > div:nth-child(2) {
+        position: absolute;
+        width: 30%;
+        right: 40px;
+    }
+}
+
+

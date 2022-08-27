@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://www.hellobrightline.com/favicon.png">
+    <link rel="stylesheet" href="signUp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brightline</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="img1"><img src="https://www.hellobrightline.com/assets/brightline-logo.svg" alt=""></div>
+
+    <div id="form">
+        <p>Get extraordinary support for your family, right from home</p>
+        <p>We’re here to help your family navigate the tough stuff and get to brighter days ahead.</p>
+        <p>First, let’s set up your free account.</p>
+        <div id="inputfield">
+            <div id="name">
+                <div>
+                    <lable for="fname">First name</lable>
+                    <input type="text" id="fname" placeholder="First name">
+                </div>
+                <div>
+                    <lable for="lname">Last name</lable>
+                    <input type="text" id="lname" placeholder="Last name">
+                </div>
+            </div>
+
+            <div id="mailstate">
+                <div>
+                    <lable for="mail">Email</lable>
+                    <input type="email" id="mail" placeholder="Email">
+                </div>
+                <div>
+                    <lable for="state">State</lable>
+                    <input type="text" id="state">
+                </div>
+            </div>
+
+            <div id="pass">
+                <div>
+                    <div>
+                        <div>
+                            <lable for="password">Password</lable>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="check"><div>show</div>
+                        </div>
+                    </div>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+            </div>
+
+            <div id="condition">
+                <ul>
+                    <li id="min8char">contain 8 characters in length</li>
+                    <li id="min1num">include 1 number (0-9)</li>
+                    <li id="min1lowercase">include 1 lower case letter (a-z)</li>
+                    <li id="min1specialchar">include 1 special character (!@#$%^&*)</li>
+                    <li id="min1uppercase">include 1 upper case letter (A-Z)</li>
+                </ul>
+            </div>
+
+            <div id="yesno">
+                <div>
+                    <lable for="benifit">Do you get Brightline benefits through your employer?</lable>
+                    <select>
+                        <option value="">Yes</option>
+                        <option value="">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="aggree">
+                <input type="checkbox">
+                I agree to Brightline's <a href="#" class="acolor"> Terms of Service</a>, <a href="#" class="acolor"> Privacy Policy</a>, and<a href="#" class="acolor"> Notice of Privacy Practices</a>
+            </div>
+
+            <button id="signupbtn">Sign Up</button>
+
+            <div id="already" style="font-family: 'Roboto', sans-serif;">Already registered? Log in instead</div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div>
+            <p>Have questions? Our support team is here to help.</p>
+            <p>Phone - (888) 224-7332</p>
+        </div>
+        <div>
+            <p>If you, your child, or someone you know is in crisis Call 911, go to the nearest emergency room, or reach out to the following national resources. You’re never alone.</p>
+            <p>Call 1-800-273-TALK (8255) to reach a 24-hour crisis center.</p>
+            <p>Text 741741 to reach the Crisis Text Line.</p>
+        </div>
+    </div>
+    <div id="footer2">
+        <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Notice of Privacy Practices</a>
+        </div>
+        <div>
+            © Brightline. All Rights Reserved.
+        </div>
+    </div>
+</body>
+
+<script src="signUp.js"></script>
+
+</html>
